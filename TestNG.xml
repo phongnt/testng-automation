@@ -2,9 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="AllTestsSuite">
-    <test name="My First Selenium TestNG Test">
+    <!--test name="My First Selenium TestNG Test">
         <classes>
             <class name="FirstTest"/>
+        </classes>
+    </test-->
+    <test name="REST API Test">
+        <classes>
+            <class name="RestApiTest"/>
         </classes>
     </test>
 </suite>
